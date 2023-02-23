@@ -27,10 +27,10 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="91dp"
                 android:text="L O G I N"
                 android:textAlignment="center"
-                android:textStyle="bold" />
+                android:textStyle="bold|italic" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -74,6 +74,11 @@
                 android:text="I N G R E S A R"
                 android:textColorHint="#CD1212"
                 app:iconTint="#03A9F4" />
+
+            <TextView
+                android:id="@+id/txtresp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
