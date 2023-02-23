@@ -3,9 +3,11 @@ package sv.edu.utec.primerparcialramirezchavez;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    EdiText edtusuario,etcontraseña;
+    EditText edtusuario,etcontraseña;
 
     TextView txtresp;
     Button btningresar;
@@ -14,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etusuario=findViewById(R.id.edtuser);
+        edtusuario=findViewById(R.id.edtuser);
         etcontraseña=findViewById(R.id.edtcontra);
         txtresp=findViewById(R.id.txtresp);
 
