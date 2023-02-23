@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         etcontraseña=findViewById(R.id.edtcontra);
         txtrespi=findViewById(R.id.txtresp);
 
-        public void ingre (View View){
+        public void ingre(View view){
             String Usuario, contraseña, resp;
 
             Usuario = edtusuario.getText().toString();
